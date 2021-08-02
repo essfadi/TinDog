@@ -1,0 +1,154 @@
+body {
+  font-family: "Montserrat";
+}
+/* Navbar Modifications */
+#title {
+  background-color: #ff4c68;
+}
+#title .container-fluid:last-child{
+  text-align: left;
+}
+.navbar-brand {
+  font-family: "Lobster", cursive;
+  font-size: 3rem;
+}
+h1 {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: white;
+}
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+.nav-item {
+  padding: 0 1.1rem;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+/* Download Button */
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+/* Title Image */
+.iphone-mockup {
+  max-width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+
+}
+/* Features Modification */
+#features {
+  padding: 7% 0%;
+  background-color: #fff;
+  position: relative;
+}
+.container-fluid {
+  text-align: center;
+}
+#features .fas {
+  color: #ef8172;
+  font-size: 4rem;
+}
+#features .fas:hover {
+  color: #ff4c68;
+}
+#features h3 {
+  font-size: 1.5rem;
+  font-weight: 900;
+  margin: 3% auto;
+}
+#features p {
+  color: #8f8f8f;
+}
+
+/* Testimonials Section */
+#testimonials {
+  background-color: #ef8172;
+  text-align: center;
+  color: #fff;
+}
+#testimonials h2 {
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+#testimonials img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.hot {
+  transition: color 2s;
+}
+.hot:hover {
+  color: #ff4c68;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+/* Press Section */
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+#press img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+#pricing .container
+{
+  padding: 3% 2%;
+}
+#pricing h2, #pricing h3 {
+  font-weight: 900;
+}
+/* Call To Action Section */
+#cta {
+  background-color: #ff4c68;
+  padding: 10%;
+  line-height: 1.5;
+  margin-bottom: 4rem;
+}
+#cta h3 {
+  font-weight: 900;
+  font-size: 3rem;
+}
+#cta button {
+  margin-right: 2rem;
+}
+/* Footer Section */
+#footer {
+  line-height: 2;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+#footer a{
+  font-size: 2rem;
+  color: #8f8f8f;
+  margin: 1rem;
+  transition: 1s;
+}
+#footer a:hover {
+  color: #007bff;
+}
+/* Responsive Deisgn for Phones & Tablets */
+@media screen and (max-width: 768px) {
+  .iphone-mockup {
+    position: static;
+    transform: rotate(0);
+  }
+  #title .container-fluid:last-child{
+    text-align: center;
+  }
+}
